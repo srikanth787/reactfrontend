@@ -7,6 +7,6 @@ before_install:
   - docker build -t srikanth787/reactfrontend:latest -f Dockerfile.dev .
 
 script:
-  - docker run srikanth787/reactfrontend:latest npm run test -- -- coverage
+  - docker run srikanth787/reactfrontend:latest npm run test -- --coverage
 
 
